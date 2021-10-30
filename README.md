@@ -1,0 +1,1 @@
+# config_archlinux_i3wm
