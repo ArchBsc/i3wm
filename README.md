@@ -56,7 +56,7 @@ yay -S polybar-git
 
 gpg -c <file path example home/alex/...>
 
-# To undo these
+## To undo these
 gpg -d <file path example home/alex/...> with .gpg
 
 
