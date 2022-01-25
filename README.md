@@ -64,6 +64,10 @@ yay -S picom-git
 
 yay -S polybar-git
 
+## TO make bootable usb
+
+sudo dd bs=4M if=the_path_of_iso of=/dev/device_name 
+
 ### cryptography files
 # To cryptography a file type in terminal:
 
