@@ -41,6 +41,9 @@ alsa-firmware alsa-utils alsa-plugins pulseaudio-alsa pulseaudio
 
 cat Downloads/command_for_arch_base_.txt
 
+## Extract file plugin plugin for pcmanfm
+
+sudo pacman -S thunar-archive-plugin xarchiver
 
 # [commands for terminal]:
 -ncdu
