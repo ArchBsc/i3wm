@@ -1,4 +1,4 @@
-# config_archlinux_i3wm
+# Guide
 
 
 sudo pacman -S i3 dmenu xorg xorg-xinit
