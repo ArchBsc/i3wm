@@ -38,19 +38,19 @@ powertop
 # audio
 alsa-firmware alsa-utils alsa-plugins pulseaudio-alsa pulseaudio
 
+cat Downloads/command_for_arch_base_.txt
+
 ## Vim 
 
 source: https://linuxhint.com/vim_install_plugins/
 
-### Commands
+Commands
 
 git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
 
 sh ~/.vim_runtime/install_awesome_vimrc.sh
 
 vim ~/.vimrc
-
-cat Downloads/command_for_arch_base_.txt
 
 ## Extract file plugin plugin for pcmanfm
 
