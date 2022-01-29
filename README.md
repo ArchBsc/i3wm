@@ -42,15 +42,12 @@ cat Downloads/command_for_arch_base_.txt
 
 ## Vim 
 
-source: https://linuxhint.com/vim_install_plugins/
+https://github.com/junegunn/vim-plug
 
-Commands
+Plugs:
 
-git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+https://github.com/jiangmiao/auto-pairs.git
 
-sh ~/.vim_runtime/install_awesome_vimrc.sh
-
-vim ~/.vimrc
 
 ## Extract file plugin plugin for pcmanfm
 
