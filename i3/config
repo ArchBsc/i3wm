@@ -51,6 +51,8 @@ exec --no-startup-id clipit
 exec --no-startup-id xautolock -time 10 -locker blurlock
 exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
+# bindsym --release $mod+ exec --no-startup-id import /home/arch/Pictures/latest-screenshot.png
+# bindsym print exec gnome-screenshot -i 
 
 # Color palette used for the terminal ( ~/.Xresources file )
 # Colors are gathered based on the documentation:
@@ -110,7 +112,7 @@ bindsym $mod+Ctrl+m exec terminal -e 'alsamixer'
 ## KEYBINDINGS ##
 #################
 
-bindsym --release Print exec "scrot -m '/home/alex/Pictures/'"
+bindsym --release Print exec scrot -m /home/arch/Pictures/
 
 # change borders
 bindsym $mod+u border none
@@ -487,7 +489,7 @@ mode "$mode_gaps_outer" {
 }
 
 # Wallpaper
-exec_always feh --bg-fill /home/alex/Pictures/wallpaper/kU6QGsW.jpeg
+exec_always feh --bg-fill /home/arch/Pictures/wallpaper/kU6QGsW.jpeg
 
 
 
