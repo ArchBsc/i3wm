@@ -1,6 +1,0 @@
-## Guide
-
-copy: yy
-paste: pp 
-delete: dD
-show hidden: zh
